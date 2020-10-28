@@ -5590,7 +5590,7 @@ if (reversed == null) { reversed = false; }
 
 	// timeline functions:
 	this.frame_0 = function() {
-		/* stop()*/
+		this.stop()
 	}
 	this.frame_1 = function() {
 		playSound("BangElectric");
@@ -5629,7 +5629,7 @@ if (reversed == null) { reversed = false; }
 
 	// timeline functions:
 	this.frame_0 = function() {
-		/* stop()*/
+		this.stop()
 	}
 	this.frame_1 = function() {
 		playSound("Click");
@@ -5668,7 +5668,7 @@ if (reversed == null) { reversed = false; }
 
 	// timeline functions:
 	this.frame_0 = function() {
-		/* stop()*/
+		this.stop()
 	}
 	this.frame_1 = function() {
 		playSound("CrackStone");
@@ -15372,9 +15372,9 @@ if (reversed == null) { reversed = false; }
 
 	// Layer_1_copy_6
 	this.instance = new lib.dsf("synched",0);
-	this.instance.setTransform(94.4,-16.95,1.0001,1.0001,0,0,0,0.9,-0.9);
+	this.instance.setTransform(94.4,2.4,1.0001,1.0001,0,0,0,1,-0.8);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1).to({regX:-2.4,regY:17.1,x:91.1,y:1.05,startPosition:1},0).wait(1).to({startPosition:2},0).wait(1).to({startPosition:3},0).wait(1).to({startPosition:4},0).wait(1).to({startPosition:5},0).wait(1).to({startPosition:6},0).wait(1).to({startPosition:7},0).wait(1).to({startPosition:8},0).wait(1).to({startPosition:9},0).wait(1).to({startPosition:10},0).wait(1).to({startPosition:11},0).wait(1).to({x:91.15,y:1,startPosition:12},0).wait(1).to({startPosition:13},0).wait(1).to({startPosition:14},0).wait(1).to({startPosition:15},0).wait(1).to({startPosition:16},0).wait(1).to({startPosition:17},0).wait(1).to({startPosition:18},0).wait(1).to({startPosition:19},0).wait(1).to({startPosition:20},0).wait(1).to({startPosition:21},0).wait(1).to({startPosition:22},0).wait(1).to({x:91.2,y:0.95,startPosition:23},0).wait(1).to({startPosition:24},0).wait(1).to({startPosition:25},0).wait(1).to({startPosition:26},0).wait(1).to({startPosition:27},0).wait(1).to({startPosition:28},0).wait(1).to({startPosition:29},0).wait(1).to({startPosition:30},0).wait(1).to({startPosition:31},0).wait(1).to({startPosition:32},0).wait(1).to({startPosition:33},0).wait(1).to({startPosition:34},0).wait(1).to({y:-4.45,startPosition:35},0).wait(1).to({y:-8.7,startPosition:36},0).wait(1).to({y:-11.95,startPosition:37},0).wait(1).to({y:-14,startPosition:38},0).wait(1).to({y:-14.75,startPosition:39},0).wait(1).to({y:-14.1,startPosition:0},0).wait(1).to({y:-12.15,startPosition:1},0).wait(1).to({y:-9,startPosition:2},0).wait(1).to({y:-4.7,startPosition:3},0).wait(1).to({y:0.95,startPosition:4},0).wait(1).to({startPosition:5},0).wait(1).to({startPosition:6},0).wait(1).to({startPosition:7},0).wait(1).to({startPosition:8},0).wait(1).to({startPosition:9},0).wait(1).to({startPosition:10},0).wait(1).to({startPosition:11},0).wait(1).to({startPosition:12},0).wait(1).to({startPosition:13},0).wait(1).to({startPosition:14},0).wait(1).to({startPosition:15},0).wait(1).to({startPosition:16},0).wait(1).to({startPosition:17},0).wait(1).to({startPosition:18},0).wait(1).to({startPosition:19},0).wait(1).to({startPosition:20},0).wait(1).to({startPosition:21},0).wait(1).to({startPosition:22},0).wait(1).to({startPosition:23},0).wait(1).to({startPosition:24},0).wait(1).to({startPosition:25},0).wait(1).to({startPosition:26},0).wait(1).to({startPosition:27},0).wait(1).to({startPosition:28},0).wait(1).to({startPosition:29},0).wait(1).to({startPosition:30},0).wait(1).to({startPosition:31},0).wait(1).to({startPosition:32},0).wait(1).to({startPosition:33},0).wait(1).to({startPosition:34},0).wait(1).to({startPosition:35},0).wait(1).to({startPosition:36},0).wait(1).to({startPosition:37},0).wait(1).to({startPosition:38},0).wait(1).to({startPosition:39},0).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1).to({regX:-2.4,regY:17.1,x:91,y:20.25,startPosition:1},0).wait(1).to({startPosition:2},0).wait(1).to({startPosition:3},0).wait(1).to({startPosition:4},0).wait(1).to({startPosition:5},0).wait(1).to({startPosition:6},0).wait(1).to({startPosition:7},0).wait(1).to({startPosition:8},0).wait(1).to({startPosition:9},0).wait(1).to({startPosition:10},0).wait(1).to({startPosition:11},0).wait(1).to({x:91.05,y:20.2,startPosition:12},0).wait(1).to({startPosition:13},0).wait(1).to({startPosition:14},0).wait(1).to({startPosition:15},0).wait(1).to({startPosition:16},0).wait(1).to({startPosition:17},0).wait(1).to({startPosition:18},0).wait(1).to({startPosition:19},0).wait(1).to({startPosition:20},0).wait(1).to({startPosition:21},0).wait(1).to({startPosition:22},0).wait(1).to({x:91.1,y:20.15,startPosition:23},0).wait(1).to({startPosition:24},0).wait(1).to({startPosition:25},0).wait(1).to({startPosition:26},0).wait(1).to({startPosition:27},0).wait(1).to({startPosition:28},0).wait(1).to({startPosition:29},0).wait(1).to({startPosition:30},0).wait(1).to({startPosition:31},0).wait(1).to({startPosition:32},0).wait(1).to({startPosition:33},0).wait(1).to({startPosition:34},0).wait(1).to({y:14.8,startPosition:35},0).wait(1).to({y:10.55,startPosition:36},0).wait(1).to({y:7.3,startPosition:37},0).wait(1).to({y:5.25,startPosition:38},0).wait(1).to({y:4.5,startPosition:39},0).wait(1).to({y:5.15,startPosition:0},0).wait(1).to({y:7.1,startPosition:1},0).wait(1).to({y:10.25,startPosition:2},0).wait(1).to({y:14.55,startPosition:3},0).wait(1).to({y:20.15,startPosition:4},0).wait(1).to({startPosition:5},0).wait(1).to({startPosition:6},0).wait(1).to({startPosition:7},0).wait(1).to({startPosition:8},0).wait(1).to({startPosition:9},0).wait(1).to({startPosition:10},0).wait(1).to({startPosition:11},0).wait(1).to({startPosition:12},0).wait(1).to({startPosition:13},0).wait(1).to({startPosition:14},0).wait(1).to({startPosition:15},0).wait(1).to({startPosition:16},0).wait(1).to({startPosition:17},0).wait(1).to({startPosition:18},0).wait(1).to({startPosition:19},0).wait(1).to({startPosition:20},0).wait(1).to({startPosition:21},0).wait(1).to({startPosition:22},0).wait(1).to({startPosition:23},0).wait(1).to({startPosition:24},0).wait(1).to({startPosition:25},0).wait(1).to({startPosition:26},0).wait(1).to({startPosition:27},0).wait(1).to({startPosition:28},0).wait(1).to({startPosition:29},0).wait(1).to({startPosition:30},0).wait(1).to({startPosition:31},0).wait(1).to({startPosition:32},0).wait(1).to({startPosition:33},0).wait(1).to({startPosition:34},0).wait(1).to({startPosition:35},0).wait(1).to({startPosition:36},0).wait(1).to({startPosition:37},0).wait(1).to({startPosition:38},0).wait(1).to({startPosition:39},0).wait(1));
 
 	// Layer_1_copy_5
 	this.instance_1 = new lib.Symbol28("synched",0);
@@ -15415,7 +15415,7 @@ if (reversed == null) { reversed = false; }
 	this._renderFirstFrame();
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-126.6,-41.9,254.6,73.1);
+p.nominalBounds = new cjs.Rectangle(-126.6,-40.7,254.5,88.30000000000001);
 
 
 (lib.FirstLogoTextAnim = function(mode,startPosition,loop,reversed) {
@@ -50221,44 +50221,44 @@ lib.properties = {
 	color: "#70A4BC",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/_7ts68wli.png?1603890009457", id:"_7ts68wli"},
-		{src:"images/_8tv3h613.png?1603890009457", id:"_8tv3h613"},
-		{src:"images/bedrock.png?1603890009457", id:"bedrock"},
-		{src:"images/Bitmap1.png?1603890009457", id:"Bitmap1"},
-		{src:"images/Bitmap10.png?1603890009457", id:"Bitmap10"},
-		{src:"images/Bitmap11.png?1603890009457", id:"Bitmap11"},
-		{src:"images/Bitmap12.png?1603890009457", id:"Bitmap12"},
-		{src:"images/Bitmap13.png?1603890009457", id:"Bitmap13"},
-		{src:"images/Bitmap14.png?1603890009457", id:"Bitmap14"},
-		{src:"images/Bitmap15.png?1603890009457", id:"Bitmap15"},
-		{src:"images/Bitmap2.png?1603890009457", id:"Bitmap2"},
-		{src:"images/Bitmap3.png?1603890009457", id:"Bitmap3"},
-		{src:"images/Bitmap4.png?1603890009457", id:"Bitmap4"},
-		{src:"images/Bitmap7.png?1603890009457", id:"Bitmap7"},
-		{src:"images/Bitmap8.png?1603890009457", id:"Bitmap8"},
-		{src:"images/Bitmap9.png?1603890009457", id:"Bitmap9"},
-		{src:"images/destroy_stage_0.png?1603890009457", id:"destroy_stage_0"},
-		{src:"images/destroy_stage_1.png?1603890009457", id:"destroy_stage_1"},
-		{src:"images/destroy_stage_2.png?1603890009457", id:"destroy_stage_2"},
-		{src:"images/destroy_stage_3.png?1603890009457", id:"destroy_stage_3"},
-		{src:"images/destroy_stage_4.png?1603890009457", id:"destroy_stage_4"},
-		{src:"images/destroy_stage_5.png?1603890009457", id:"destroy_stage_5"},
-		{src:"images/destroy_stage_6.png?1603890009457", id:"destroy_stage_6"},
-		{src:"images/destroy_stage_7.png?1603890009457", id:"destroy_stage_7"},
-		{src:"images/destroy_stage_8.png?1603890009457", id:"destroy_stage_8"},
-		{src:"images/destroy_stage_9.png?1603890009457", id:"destroy_stage_9"},
-		{src:"images/dtve0eqe.png?1603890009457", id:"dtve0eqe"},
-		{src:"images/evil_chickenite_blocks.png?1603890009457", id:"evil_chickenite_blocks"},
-		{src:"images/evil_chickenite_ore.png?1603890009457", id:"evil_chickenite_ore"},
-		{src:"images/FinalBosstommyb9ULD.png?1603890009457", id:"FinalBosstommyb9ULD"},
-		{src:"images/minecraft_chickenium_blocks.png?1603890009457", id:"minecraft_chickenium_blocks"},
-		{src:"images/minecraft_chickenium_ore.png?1603890009457", id:"minecraft_chickenium_ore"},
-		{src:"images/obsidian.png?1603890009457", id:"obsidian"},
-		{src:"images/terrlestone.png?1603890009457", id:"terrlestone"},
-		{src:"sounds/BangElectric.mp3?1603890009457", id:"BangElectric"},
-		{src:"sounds/Click.mp3?1603890009457", id:"Click"},
-		{src:"sounds/CrackStone.mp3?1603890009457", id:"CrackStone"},
-		{src:"sounds/MiningStone.mp3?1603890009457", id:"MiningStone"}
+		{src:"images/_7ts68wli.png?1603894733199", id:"_7ts68wli"},
+		{src:"images/_8tv3h613.png?1603894733199", id:"_8tv3h613"},
+		{src:"images/bedrock.png?1603894733199", id:"bedrock"},
+		{src:"images/Bitmap1.png?1603894733199", id:"Bitmap1"},
+		{src:"images/Bitmap10.png?1603894733199", id:"Bitmap10"},
+		{src:"images/Bitmap11.png?1603894733199", id:"Bitmap11"},
+		{src:"images/Bitmap12.png?1603894733199", id:"Bitmap12"},
+		{src:"images/Bitmap13.png?1603894733199", id:"Bitmap13"},
+		{src:"images/Bitmap14.png?1603894733199", id:"Bitmap14"},
+		{src:"images/Bitmap15.png?1603894733199", id:"Bitmap15"},
+		{src:"images/Bitmap2.png?1603894733199", id:"Bitmap2"},
+		{src:"images/Bitmap3.png?1603894733199", id:"Bitmap3"},
+		{src:"images/Bitmap4.png?1603894733199", id:"Bitmap4"},
+		{src:"images/Bitmap7.png?1603894733199", id:"Bitmap7"},
+		{src:"images/Bitmap8.png?1603894733199", id:"Bitmap8"},
+		{src:"images/Bitmap9.png?1603894733199", id:"Bitmap9"},
+		{src:"images/destroy_stage_0.png?1603894733199", id:"destroy_stage_0"},
+		{src:"images/destroy_stage_1.png?1603894733199", id:"destroy_stage_1"},
+		{src:"images/destroy_stage_2.png?1603894733199", id:"destroy_stage_2"},
+		{src:"images/destroy_stage_3.png?1603894733199", id:"destroy_stage_3"},
+		{src:"images/destroy_stage_4.png?1603894733199", id:"destroy_stage_4"},
+		{src:"images/destroy_stage_5.png?1603894733199", id:"destroy_stage_5"},
+		{src:"images/destroy_stage_6.png?1603894733199", id:"destroy_stage_6"},
+		{src:"images/destroy_stage_7.png?1603894733199", id:"destroy_stage_7"},
+		{src:"images/destroy_stage_8.png?1603894733199", id:"destroy_stage_8"},
+		{src:"images/destroy_stage_9.png?1603894733199", id:"destroy_stage_9"},
+		{src:"images/dtve0eqe.png?1603894733199", id:"dtve0eqe"},
+		{src:"images/evil_chickenite_blocks.png?1603894733199", id:"evil_chickenite_blocks"},
+		{src:"images/evil_chickenite_ore.png?1603894733199", id:"evil_chickenite_ore"},
+		{src:"images/FinalBosstommyb9ULD.png?1603894733199", id:"FinalBosstommyb9ULD"},
+		{src:"images/minecraft_chickenium_blocks.png?1603894733199", id:"minecraft_chickenium_blocks"},
+		{src:"images/minecraft_chickenium_ore.png?1603894733199", id:"minecraft_chickenium_ore"},
+		{src:"images/obsidian.png?1603894733199", id:"obsidian"},
+		{src:"images/terrlestone.png?1603894733200", id:"terrlestone"},
+		{src:"sounds/BangElectric.mp3?1603894733200", id:"BangElectric"},
+		{src:"sounds/Click.mp3?1603894733200", id:"Click"},
+		{src:"sounds/CrackStone.mp3?1603894733200", id:"CrackStone"},
+		{src:"sounds/MiningStone.mp3?1603894733200", id:"MiningStone"}
 	],
 	preloads: []
 };

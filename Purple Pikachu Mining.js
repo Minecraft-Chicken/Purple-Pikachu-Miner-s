@@ -15415,7 +15415,7 @@ if (reversed == null) { reversed = false; }
 	this._renderFirstFrame();
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-126.6,-40.7,254.5,88.30000000000001);
+p.nominalBounds = new cjs.Rectangle(-126.6,-40.7,254.39999999999998,88.2);
 
 
 (lib.FirstLogoTextAnim = function(mode,startPosition,loop,reversed) {
@@ -39884,22 +39884,22 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
 	// Background
-	this.shape_49 = new cjs.Shape();
-	this.shape_49.graphics.rf(["#FFFFFF","#FFFFFF","rgba(255,235,195,0.718)","rgba(255,243,0,0)"],[0,0.537,0.549,1],0,0,0,0,0,55.8).s().p("AmEGFQihihAAjkQAAjjChihQChihDjAAQDkAAChChQChChAADjQAADkihChQihChjkAAQjjAAihihg");
-	this.shape_49.setTransform(237.5,-179.45);
-
 	this.bsdfge = new lib.Background();
 	this.bsdfge.name = "bsdfge";
 	this.bsdfge.setTransform(59.9,5.4,1.1629,1.1625);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.bsdfge},{t:this.shape_49}]}).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.bsdfge).wait(1));
 
 	// Layer_12
+	this.shape_49 = new cjs.Shape();
+	this.shape_49.graphics.rf(["#FFFFFF","#FFFFFF","rgba(255,235,195,0.718)","rgba(255,243,0,0)"],[0,0.537,0.549,1],0,0,0,0,0,55.8).s().p("AmEGFQihihAAjkQAAjjChihQChihDjAAQDkAAChChQChChAADjQAADkihChQihChjkAAQjjAAihihg");
+	this.shape_49.setTransform(237.5,-179.45);
+
 	this.shape_50 = new cjs.Shape();
 	this.shape_50.graphics.lf(["rgba(255,255,255,0)","#FFFFFF"],[0,1],-9.4,-192.5,-9.4,353.6).s().p("EgvPAhXMAAAhCtMBeeAAAMAAABCtg");
 	this.shape_50.setTransform(-9.4877,-12.9,1.216,1);
 
-	this.timeline.addTween(cjs.Tween.get(this.shape_50).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_50},{t:this.shape_49}]}).wait(1));
 
 	this._renderFirstFrame();
 
@@ -49077,7 +49077,7 @@ if (reversed == null) { reversed = false; }
 				this.Menu_Fixed_Screen.x = 320
 				this.Menu_Fixed_Screen.y = 240
 			}
-			if(this.Menu_Fixed_Screen.pikachu.currentFrame < 2 || this.Menu_Fixed_Screen.pikachu.currentFrame > 66 && this.Menu_Fixed_Screen.pikachu.currentFrame < 70 || this.Menu_Fixed_Screen.pikachu.currentFrame > 247 && this.Menu_Fixed_Screen.pikachu.currentFrame < 254 || this.Menu_Fixed_Screen.pikachu.currentFrame > 416 && this.Menu_Fixed_Screen.pikachu.currentFrame < 423
+			if(this.Menu_Fixed_Screen.pikachu.currentFrame < 2 || this.Menu_Fixed_Screen.pikachu.currentFrame > 108 && this.Menu_Fixed_Screen.pikachu.currentFrame < 112 || this.Menu_Fixed_Screen.pikachu.currentFrame > 246 && this.Menu_Fixed_Screen.pikachu.currentFrame < 253 || this.Menu_Fixed_Screen.pikachu.currentFrame > 416 && this.Menu_Fixed_Screen.pikachu.currentFrame < 423
 				 || this.Menu_Fixed_Screen.pikachu.currentFrame > 681 && this.Menu_Fixed_Screen.pikachu.currentFrame < 689){
 				WaitPickaxePikachu = true
 			}
@@ -50221,44 +50221,44 @@ lib.properties = {
 	color: "#70A4BC",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/_7ts68wli.png?1603894733199", id:"_7ts68wli"},
-		{src:"images/_8tv3h613.png?1603894733199", id:"_8tv3h613"},
-		{src:"images/bedrock.png?1603894733199", id:"bedrock"},
-		{src:"images/Bitmap1.png?1603894733199", id:"Bitmap1"},
-		{src:"images/Bitmap10.png?1603894733199", id:"Bitmap10"},
-		{src:"images/Bitmap11.png?1603894733199", id:"Bitmap11"},
-		{src:"images/Bitmap12.png?1603894733199", id:"Bitmap12"},
-		{src:"images/Bitmap13.png?1603894733199", id:"Bitmap13"},
-		{src:"images/Bitmap14.png?1603894733199", id:"Bitmap14"},
-		{src:"images/Bitmap15.png?1603894733199", id:"Bitmap15"},
-		{src:"images/Bitmap2.png?1603894733199", id:"Bitmap2"},
-		{src:"images/Bitmap3.png?1603894733199", id:"Bitmap3"},
-		{src:"images/Bitmap4.png?1603894733199", id:"Bitmap4"},
-		{src:"images/Bitmap7.png?1603894733199", id:"Bitmap7"},
-		{src:"images/Bitmap8.png?1603894733199", id:"Bitmap8"},
-		{src:"images/Bitmap9.png?1603894733199", id:"Bitmap9"},
-		{src:"images/destroy_stage_0.png?1603894733199", id:"destroy_stage_0"},
-		{src:"images/destroy_stage_1.png?1603894733199", id:"destroy_stage_1"},
-		{src:"images/destroy_stage_2.png?1603894733199", id:"destroy_stage_2"},
-		{src:"images/destroy_stage_3.png?1603894733199", id:"destroy_stage_3"},
-		{src:"images/destroy_stage_4.png?1603894733199", id:"destroy_stage_4"},
-		{src:"images/destroy_stage_5.png?1603894733199", id:"destroy_stage_5"},
-		{src:"images/destroy_stage_6.png?1603894733199", id:"destroy_stage_6"},
-		{src:"images/destroy_stage_7.png?1603894733199", id:"destroy_stage_7"},
-		{src:"images/destroy_stage_8.png?1603894733199", id:"destroy_stage_8"},
-		{src:"images/destroy_stage_9.png?1603894733199", id:"destroy_stage_9"},
-		{src:"images/dtve0eqe.png?1603894733199", id:"dtve0eqe"},
-		{src:"images/evil_chickenite_blocks.png?1603894733199", id:"evil_chickenite_blocks"},
-		{src:"images/evil_chickenite_ore.png?1603894733199", id:"evil_chickenite_ore"},
-		{src:"images/FinalBosstommyb9ULD.png?1603894733199", id:"FinalBosstommyb9ULD"},
-		{src:"images/minecraft_chickenium_blocks.png?1603894733199", id:"minecraft_chickenium_blocks"},
-		{src:"images/minecraft_chickenium_ore.png?1603894733199", id:"minecraft_chickenium_ore"},
-		{src:"images/obsidian.png?1603894733199", id:"obsidian"},
-		{src:"images/terrlestone.png?1603894733200", id:"terrlestone"},
-		{src:"sounds/BangElectric.mp3?1603894733200", id:"BangElectric"},
-		{src:"sounds/Click.mp3?1603894733200", id:"Click"},
-		{src:"sounds/CrackStone.mp3?1603894733200", id:"CrackStone"},
-		{src:"sounds/MiningStone.mp3?1603894733200", id:"MiningStone"}
+		{src:"images/_7ts68wli.png?1603896485132", id:"_7ts68wli"},
+		{src:"images/_8tv3h613.png?1603896485132", id:"_8tv3h613"},
+		{src:"images/bedrock.png?1603896485132", id:"bedrock"},
+		{src:"images/Bitmap1.png?1603896485132", id:"Bitmap1"},
+		{src:"images/Bitmap10.png?1603896485132", id:"Bitmap10"},
+		{src:"images/Bitmap11.png?1603896485132", id:"Bitmap11"},
+		{src:"images/Bitmap12.png?1603896485132", id:"Bitmap12"},
+		{src:"images/Bitmap13.png?1603896485132", id:"Bitmap13"},
+		{src:"images/Bitmap14.png?1603896485132", id:"Bitmap14"},
+		{src:"images/Bitmap15.png?1603896485132", id:"Bitmap15"},
+		{src:"images/Bitmap2.png?1603896485132", id:"Bitmap2"},
+		{src:"images/Bitmap3.png?1603896485132", id:"Bitmap3"},
+		{src:"images/Bitmap4.png?1603896485132", id:"Bitmap4"},
+		{src:"images/Bitmap7.png?1603896485132", id:"Bitmap7"},
+		{src:"images/Bitmap8.png?1603896485132", id:"Bitmap8"},
+		{src:"images/Bitmap9.png?1603896485132", id:"Bitmap9"},
+		{src:"images/destroy_stage_0.png?1603896485132", id:"destroy_stage_0"},
+		{src:"images/destroy_stage_1.png?1603896485132", id:"destroy_stage_1"},
+		{src:"images/destroy_stage_2.png?1603896485132", id:"destroy_stage_2"},
+		{src:"images/destroy_stage_3.png?1603896485132", id:"destroy_stage_3"},
+		{src:"images/destroy_stage_4.png?1603896485132", id:"destroy_stage_4"},
+		{src:"images/destroy_stage_5.png?1603896485132", id:"destroy_stage_5"},
+		{src:"images/destroy_stage_6.png?1603896485132", id:"destroy_stage_6"},
+		{src:"images/destroy_stage_7.png?1603896485132", id:"destroy_stage_7"},
+		{src:"images/destroy_stage_8.png?1603896485132", id:"destroy_stage_8"},
+		{src:"images/destroy_stage_9.png?1603896485132", id:"destroy_stage_9"},
+		{src:"images/dtve0eqe.png?1603896485132", id:"dtve0eqe"},
+		{src:"images/evil_chickenite_blocks.png?1603896485132", id:"evil_chickenite_blocks"},
+		{src:"images/evil_chickenite_ore.png?1603896485132", id:"evil_chickenite_ore"},
+		{src:"images/FinalBosstommyb9ULD.png?1603896485132", id:"FinalBosstommyb9ULD"},
+		{src:"images/minecraft_chickenium_blocks.png?1603896485132", id:"minecraft_chickenium_blocks"},
+		{src:"images/minecraft_chickenium_ore.png?1603896485132", id:"minecraft_chickenium_ore"},
+		{src:"images/obsidian.png?1603896485132", id:"obsidian"},
+		{src:"images/terrlestone.png?1603896485132", id:"terrlestone"},
+		{src:"sounds/BangElectric.mp3?1603896485132", id:"BangElectric"},
+		{src:"sounds/Click.mp3?1603896485132", id:"Click"},
+		{src:"sounds/CrackStone.mp3?1603896485132", id:"CrackStone"},
+		{src:"sounds/MiningStone.mp3?1603896485132", id:"MiningStone"}
 	],
 	preloads: []
 };
